@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(169, 196, 247);
+}
+
+header{
+    display: flex;
+    background-color: rgb(169, 196, 247);
+    height: 5vh;
+    width: 100%;
+    align-items: center;
+}
+
+.vide1{
+    width: 100px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175);
+}
+
+.clock{
+    width: 170px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175);
+    text-align: center;
+    color: rgb(11, 88, 175);
+}
+
+.phone{
+    width: 150px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175);
+    text-align: center;
+    color: rgb(11, 88, 175);
+}
+
+.vide2{
+    width: 750px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175);
+}
+
+.facebook{
+    width: 50px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175)F;
+    text-align: center;
+}
+
+.imgfacebook{
+    margin-right: 8px;
+}
+
+.twiter{
+    width: 50px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175);
+    text-align: center;
+}
+
+.imgtwiter{
+    margin-right: 8px;
+}
+
+.linkedin{
+    width: 50px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175);
+    text-align: center;
+}
+
+.imglinkedin{
+    margin-right: 8px;
+}
+
+.BE{
+    width: 50px;
+    height: 3vh;
+    border-right: 2px solid rgb(11, 88, 175);
+    text-align: center;
+}
+
+.imgBE{
+    margin-right: 8px;
+}
+
+nav{
+    background-color:rgb(169, 196, 247);
+    position: sticky;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(11, 88, 175);;
+    border: 2px solid rgb(11, 88, 175);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(11, 88, 175);;
+}
+
+.contact{
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+.home{
+    border-bottom: 3px solid rgb(11, 88, 175);;
+}
+
+.contenair{
+    background:;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(169, 196, 247);
+}
+
+.logo{
+    margin-left: 80px;
+}
+
+/* la partie juste en bas represente mon contenair dans le html */
+
+section{
+    margin-top: 0;
+}
+
+.phrase{
+    margin-left: 80px;
+    color: rgb(11, 88, 175);
+    
+}
+
+h1{
+    margin-left: 80px;
+    color: #fff;
+}
+
+p{
+    margin-left: 80px;
+    color: #fff;
+}
+
+button{
+
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color: #77B5FE;
+    color: #979797;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+    border: 1px solid rgba(250, 253, 255, 0.856);
+}
+
+footer{
+    border: 2px solid rgb(11, 88, 175);;
+    display: flex;
+    justify-content: space-between;
+}
